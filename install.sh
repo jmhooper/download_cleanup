@@ -41,7 +41,7 @@ cat > "$PLIST_PATH" <<EOF
         </dict>
     </array>
     <key>KeepAlive</key>
-    <true/>
+    <false/>
 </dict>
 </plist>
 EOF
