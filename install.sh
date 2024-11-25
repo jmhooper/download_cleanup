@@ -6,7 +6,7 @@ set -u  # Treat unset variables as errors
 SERVICE_NAME="com.jmhooper.download_cleanup"
 INSTALL_DIR="$HOME/.download_cleanup"
 PLIST_PATH="$HOME/Library/LaunchAgents/$SERVICE_NAME.plist"
-SCRIPT_URL="https://raw.githubusercontent.com/jmhooper/download_cleanup/cleanup.rb"
+SCRIPT_URL="https://raw.githubusercontent.com/jmhooper/download_cleanup/refs/heads/main/cleanup.rb"
 
 echo "Installing download_cleanup service..."
 
